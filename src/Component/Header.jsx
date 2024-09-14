@@ -6,7 +6,7 @@ const Header = () => {
     console.log('counter',counter)
   return (
     <div>
-        <h1>counter : {counter}</h1>
+        <h1 style={{textAlign:'center',marginTop:'300px'}}>counter : <br/> {counter}</h1>
     </div>
   )
 }

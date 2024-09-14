@@ -2,9 +2,10 @@ import React from 'react'
 import Header from './Component/Header'
 import Button from './Component/Button'
 
+
 const App = () => {
   return (
-    <div>
+    <div >
       <Header />
       <Button />
     </div>

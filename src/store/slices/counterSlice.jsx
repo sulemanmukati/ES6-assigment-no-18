@@ -10,11 +10,11 @@ const counterSlice =createSlice({
     reducers:{
         addCounter:(state,action)=>{
             state.counter = ++state.counter
-            console.log("add Counter")
+            // console.log("add Counter")
         },
         minusCounter:(state,action)=>{
             state.counter = state.counter >0 ? --state.counter:0 ; 
-            console.log("add Counter")
+            // console.log("add Counter")
         }
     }
 })
